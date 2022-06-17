@@ -103,3 +103,13 @@ li{
     margin: 100px, auto;
     align-items: center;
   }
+  .videocolumnas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .videocolumnas > img {
+    width: 120px;
+    margin-top: 10px;
+  }
