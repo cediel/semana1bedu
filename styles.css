@@ -41,11 +41,11 @@ li {
   vertical-align: middle;
 }
 
-.logo {
+.navbar-brand {
   width: 15%;
 }
 
-.logo>img {
+.navbar-brand>img {
   width: 15%;
 }
 
