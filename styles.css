@@ -2,6 +2,7 @@ body {
     background-color: #fffbf7;
 }
 h1 {
+  font-size: 60px;
     color:#025157;
     text-align: center;
     font-family: 'Comic Neue', cursive;
@@ -12,7 +13,9 @@ color: #8b8b8bcc;
 font-family: verdana;
 font-size: 20px;
 }
-
+titulo{
+  font-size: 360px;
+}
 button {
     color: #fff;
     background-color: 025157;
@@ -188,9 +191,15 @@ li{
   }
 /** dispositivos móviles en vista viewport (vertical) */
 @media (max-width: 575px) {
-  .navbar
+  .navbar,
   .actions{
     display: none;
+  }
+  h1{
+    font-size:  30px;
+  }
+  body{
+    background-color: aqua;
   }
 }
 
