@@ -197,9 +197,13 @@ li{
   }
   h1{
     font-size:  30px;
+    text-align: start;
   }
   body{
     background-color: aqua;
+  }
+  .main{
+    margin-top: 130px;
   }
 }
 
